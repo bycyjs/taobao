@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(234, 232, 235);
+}
+
+#app {
+    background-color: rgb(234, 232, 235);
+    width: 100%;
+    margin: 0;
+}
+
+b {
+    font-weight: 100;
+}
+
+li {
+    list-style: none;
+}
+
+/* 导航条 */
+
+.Navigation {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Navigation_n {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+
+.Navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.Navigation_n ul li {
+    margin: 1vw;
+}
+
+.Navigation ul li a {
+    font-size: 1.5vh;
+}
+
+/* 搜索条 */
+.con_w {
+    width: 100%;
+}
+
+/* .con {
+    display: flex;
+} */
+
+.con {
+    width: 100%;
+}
+
+.Search {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* margin: 3vh; */
+    margin-top: 30px;
+}
+
+.searchinput {
+    width: 528px;
+    display: flex;
+    height: 38px;
+    border-radius: 100px;
+    background-clip: padding-box;
+    position: relative;
+    border: 2px solid #FF5000;
+    background-color: #ffffff;
+
+}
+
+.search_img img {
+    height: 50px;
+}
+
+.searchinput img {
+    height: 10px;
+}
+
+.searchinput input {
+    border: none;
+    width: 100%;
+    line-height: 38px;
+
+}
+
+.searchinput input:onfocus {
+    border: none;
+}
+
+.searchinput div,
+b {
+    margin: auto 0;
+}
+
+.searchspan {
+    width: 10%;
+    padding-left: 20px;
+
+}
+
+
+.searchinput b {
+    font-weight: 100;
+
+}
+
+.searchinput2 {
+    width: 80%;
+    border: 0;
+}
+
+
+.searchinput .s {
+
+    width: 5%;
+    height: 34px;
+    width: 72px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(255, 112, 0);
+    margin-right: 2px;
+}
+
+.searchinput .s span {
+    display: block;
+    text-align: center;
+}
+
+.sercherweima {
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sercherweima span {
+    font-weight: 100;
+    color: #ff5000 !important;
+    font-size: 2vh;
+    display: block;
+    text-align: center;
+}
+
+
+.sercherweima img {
+    height: 62px;
+    width: 62px;
+}
+
+.con_w {
+    width: 100%;
+}
+
+.con_top_w {
+    width: 90%;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.con_top {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+/* 分类 */
+.con_top_classify {
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 5%;
+    padding-left: 2%;
+    background-color: rgb(247, 249, 250);
+    border-radius: 20px;
+}
+
+.con_top_classify div:nth-child(1) h1 {
+    font-size: 25px;
+    /* text-align: center; */
+    font-weight: 300;
+
+}
+
+.con_top_classify div:nth-child(2) div {
+    margin-top: 10px;
+}
+
+.con_top_classify div:nth-child(2) div img {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.con_top_classify div:nth-child(2) div a {
+    font-weight: 300;
+
+}
+
+/* .con_top_classify div:nth-child(2) div a:hover{
+    color: rgb(255,80,0);
+    text-decoration: underline;
+}
+
+.con_top_classify div:nth-child(2):hover{
+    color: rgb(255,80,0);
+}
+ */
+.con_top_classify div:nth-child(2) img:nth-child(2) {
+    display: none;
+}
+
+.con_top_right {
+    width: 70%;
+}
+
+.con_top_right_navigation {
+    margin-top: 20px;
+}
+
+.con_top_right_navigation ul {
+    display: flex;
+    background-color: rgb(247, 249, 250);
+    border-radius: 20px;
+
+}
+
+.con_top_right_navigation ul li,
+.con_top_right_navigation ul b {
+    margin: 8px;
+}
+
+.con_top_right_xia {
+    display: flex;
+    width: 100%;
+}
+
+.con_top_right_xia_LBT {
+    width: 70%;
+}
+
+.con_top_right_xia_LBT img {
+    width: 100%;
+    border-radius: 20px;
+    /* height: ; */
+}
+
+.con_top_right_xia_LOGIN {
+    width: 25%;
+
+}
+
+
+.con_top_right_xia_LOGINss {
+    display: flex;
+    width: 100%;
+
+}
+
+.con_top_right_xia_LOGINs {
+    width: 30%;
+}
+
+
+.con_top_right_xia_LOGINa img {
+
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.con_top_right_xia_LOGINb span {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+.con_top_right_xia_LOGINc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con_top_right_xia_LOGINc a {
+    border: 1px solid #ff5000;
+    border-radius: 20px;
+    background-color: #FF5000;
+    font-weight: 1000;
+    color: #ffffff;
+    padding: 5px;
+    display: block;
+}
+
+.con_top_right_xia_LOGINss {
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.con_top_right_xia_LOGINs div img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.con_top_right_xia_LOGIN div:nth-child(4) div img {
+    height: 20px;
+}
+
+.con_top_right_xia_LOGINs div span {
+    font-size: 1px;
+    font-weight: 100;
+    display: block;
+    width: 100%;
+}
+
+
+.commdit_c {
+    display: flex;
+}
+
+.commodity {
+    width: 100%;
+}
+.commdity_n{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.commdit_a {
+    width: 29%;
+    background-color: rgb(247, 249, 250);
+    margin: 10px;
+    padding: 10px;
+}
+
+.commdit_c img {
+    width: 40%;
+}
+.commdit_d{
+    margin-left: 10px;
+}
+.commdit_d p:nth-child(1) {
+    font-weight: 100;
+}
+
+.commdit_e{
+    margin-top: 2%;
+}
+
+.commdit_e span{
+    color: #FF5000;
+    border-color: #FAB596;
+    background: #FFFFFF;
+    border: 1px solid #FAB596;
+    font-weight: 100;
+}
+.commdit_f{
+    color: #ff0000;
+   display: block;
+   margin-top: 10%;
+   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 版权 */
+.copyright {
+    width: 100%;
+}
+
+.copyright_n {
+    width: 90%;
+    margin: auto;
+}
+
+.copyright_n_top ul {
+    display: flex;
+}
+
+.copyright_n_top ul li {
+    list-style: none;
+    margin: 1vw;
+    font-size: 2vh;
+}
+
+.copyright_n_top ul b {
+    margin-top: 1.5vh;
+    font-weight: 100;
+}
+
+.copyright_n_zhong ul,
+.copryrght_n_xia ul {
+    display: flex;
+}
+
+.copyright_n_zhong ul li,
+.copyright_n_zhong span,
+.copryrght_n_xia ul li {
+    list-style: none;
+    margin: 1vw;
+    font-size: 2vh;
+}
+
+.copyright_n_zhong ul b,
+.copryrght_n_xia ul b {
+    margin-top: 1.5vh;
+    font-weight: 100;
+}
+
+.copyright_n_zhong {
+    display: flex;
+}
+
+.copyright_n_zhong span {
+    display: block;
+}
